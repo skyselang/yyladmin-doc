@@ -14,8 +14,8 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git config user.name yyladmin
-git config user.email 14074545+yyladmin@user.noreply.gitee.com
+git config user.name skyselang
+git config user.email 215817969@qq.com
 git config --list
 git commit -m 'deploy'
 
