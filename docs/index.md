@@ -1,13 +1,23 @@
 ---
-home: true
-heroImage: /img/hero-image.png
-heroText: yylAdmin
-tagline: 基于ThinkPHP8和Vue3的极简后台管理系统
-actionText: 开始使用 →
-actionLink: /guide/intro/
-bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式 提示：可以到palette.styl修改背景颜色$bannerTextColor变量
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-features: # 可选的
+hero:
+  name: "yylAdmin"
+  text: "基于ThinkPHP和Vue的极简后台管理系统"
+  tagline: 内置登录退出、权限管理、日志管理、接口文档与调试等前后台基础功能
+  image:
+    src: /image/yyladmin-logo.png
+    alt: yyladmin
+  actions:
+    - theme: brand
+      text: 开始使用
+      link: /guide/intro
+    - theme: alt
+      text: 演示
+      link: /guide/intro#demo
+
+features:
   - title: 前后分离
     details: 前后分离开发模式，开发更清晰，分工更明确，提升开发效率，API、JSON数据交互，JWT用户认证。
   - title: 简单轻量
@@ -29,10 +39,7 @@ features: # 可选的
   - title: 设置管理
     details: 轮播、通告、协议、反馈、地区、微信管理等常用设置，可添加自定义参数设置，方便快捷。
   - title: 系统管理
-    details: 菜单、角色、用户、动态菜单、按钮级别等权限功能；部门、职位、公告、日志、系统设置等功能。 
+    details: 菜单、角色、用户、动态菜单、按钮级别等权限功能；部门、职位、公告、日志、系统设置等功能。
   - title: 第三方登录
-    details: 支持微信（公众号、小程序、网站、APP）、QQ（小程序、网站、APP）、微博（网站、APP）等登录。  
-
-# 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
-postList: none
+    details: 支持微信（公众号、小程序、网站、APP）、QQ（小程序、网站、APP）、微博（网站、APP）等登录。
 ---

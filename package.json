@@ -1,26 +1,14 @@
 {
-  "name": "yyladmindoc",
-  "version": "4.0.0",
-  "description": "yyladmin document",
-  "private": true,
+  "name": "yyladmin-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
-    "editFm": "node utils/editFrontmatter.js"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "dayjs": "^1.11.10",
-    "inquirer": "^7.3.3",
-    "json2yaml": "^1.1.0",
-    "vuepress": "^1.9.10",
-    "vuepress-plugin-baidu-tongji": "^1.0.1",
-    "vuepress-plugin-demo-block": "^0.7.2",
-    "vuepress-plugin-fulltext-search": "^2.2.1",
-    "vuepress-plugin-one-click-copy": "^1.0.6",
-    "vuepress-plugin-thirdparty-search": "^1.0.2",
-    "vuepress-plugin-zooming": "^1.1.8",
-    "vuepress-theme-vdoing": "^1.12.9",
-    "yamljs": "^0.3.0"
+    "vitepress": "^1.0.1"
   }
 }
