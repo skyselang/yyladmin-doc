@@ -30,3 +30,5 @@ coverage
 yarn.lock
 pnpm-lock.yaml
 package-lock.json
+
+/docs/.vitepress/cache/
