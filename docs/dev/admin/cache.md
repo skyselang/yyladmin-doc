@@ -1,3 +1,8 @@
+---
+title: cache
+date: 2024-04-12 20:21:42
+permalink: /pages/d0cb67/
+---
 # 缓存
 
 ## 缓存
