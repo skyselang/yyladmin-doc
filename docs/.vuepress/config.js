@@ -9,6 +9,7 @@ module.exports = {
   title: "yylAdmin",
   description: '一个基于ThinkPHP8和Vue3的极简后台管理系统',
   base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  dest: './dist',
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'yylAdmin,thinkphp,element-plus' }],
