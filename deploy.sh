@@ -24,6 +24,7 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f https://gitee.com/skyselang/yyladmin-doc.git master:docs
+git push -f https://github.com/skyselang/yyladmin-doc.git master:docs
 
 cd -
 rm -rf docs/.vuepress/dist
